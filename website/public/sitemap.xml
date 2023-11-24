@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset>
+<url>
+  <loc>https://www.exacto.pro/</loc>
+  <lastmod>2023-10-01T06:17:22+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://www.exacto.pro/blog</loc>
+  <lastmod>2023-10-01T06:17:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.exacto.pro/lab</loc>
+  <lastmod>2023-10-01T06:17:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.exacto.pro/lab/pythagorean</loc>
+  <lastmod>2023-10-01T06:17:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.exacto.pro/lab/rpm</loc>
+  <lastmod>2023-10-01T06:17:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+</urlset>

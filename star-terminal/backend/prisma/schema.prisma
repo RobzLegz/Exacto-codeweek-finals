@@ -1,0 +1,35 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mongodb"
+  url      = env("DATABASE_URL")
+}
+
+model LL {
+  id               String   @id @default(auto()) @map("_id") @db.ObjectId
+  url              String?
+  subject          String?
+  abstract         String?
+  driving_event    String?
+  lessons_learned  String?
+  recomendations   String?
+  evidence         String?
+  program_relation String?
+  phase            String?
+  directories      String?
+  topics           String?
+  embeddings       Float[]
+  updated_at       DateTime @updatedAt
+  created_at       DateTime @default(now())
+}
+
+model STD {
+  id         String   @id @default(auto()) @map("_id") @db.ObjectId
+  title      String?
+  txt        String?
+  embeddings Float[]
+  updated_at DateTime @updatedAt
+  created_at DateTime @default(now())
+}

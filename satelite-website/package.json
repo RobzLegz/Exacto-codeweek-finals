@@ -1,0 +1,5 @@
+{
+  "scripts": {
+    "f": "cd frontend && yarn dev"
+  }
+}
